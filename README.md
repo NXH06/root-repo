@@ -1,6 +1,7 @@
-# NXH-First-Repo
+# root-repo
 
-Created by Nguyễn Xuân Hiển to store my code in university practice classes.
-**IMPORTANT NOTE:** try to push changes to here using only Git bash for learning purposes. Don't use GitHub UI or Git GUI
+Sub-repositories which are hosted on ULille's GitLab will also be pushed here as proof of classwork.
 
-List of submodules can be found [here](./.gitmodules)
+List of all submodules can be found [here](.gitmodules).
+
+NXH06's personal projects are currently hosted at [Codeberg](https://codeberg.org/NXH06).
