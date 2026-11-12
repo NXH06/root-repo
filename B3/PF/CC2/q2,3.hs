@@ -19,7 +19,7 @@ chaineAuxB p (Noeud x gauche droite) =
     ++ indentation p ++ ferme x
 
 chaineB :: Show a => ArbreB a -> String
-chaineB ar = chaineAuxB 0 ar
+chaineB = chaineAuxB 0
 
 data Arbre a = F a | N a [Arbre a]
 
@@ -33,4 +33,4 @@ chaineAux p (F x) = indentation p ++ ouvre x
 chaineAux p (N x l) = indentation p ++ ouvre x ++ concatMap (chaineAux (p + 1)) l ++ indentation p ++ ferme x
 
 chaine :: Show a => Arbre a -> String
-chaine ar = chaineAux 0 ar
+chaine = chaineAux 0

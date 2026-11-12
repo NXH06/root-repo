@@ -30,3 +30,5 @@ poutres
  29
  3500
  750;
+
+option solver gurobi;

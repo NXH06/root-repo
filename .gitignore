@@ -7,10 +7,14 @@ __pycache__
 *.docx
 *.jpg
 *.png
+
 *.ico
+desktop.ini
+
 *.jar
 *.class
-desktop.ini
+
+**/.*
 
 **/PDS/Sample\ Exam*
 **/COO/CM5
